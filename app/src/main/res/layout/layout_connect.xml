@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+            android:id="@+id/rl_top_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp">
+        <Button android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_menu_back"
+                android:background="#00000000"/>
+        <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20.0dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/ios_back_arrow"
+                android:id="@+id/imageButton"/>
+        <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:text="wifi测试"
+                android:textSize="20sp"
+                android:textColor="#4c4c4c"
+                android:layout_centerHorizontal="true"/>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:layout_alignParentBottom="true"
+              android:background="#cbcbcb"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_config"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_config"
+            android:text="name:"
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:textColor="#262626"/>
+</RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/rl_message"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_result1"
+                android:text=""
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:layout_alignParentBottom="true"
+              android:background="#e7eaeb"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/rl_editConfig"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                android:id="@+id/ll_name">
+        <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name"
+                android:text="AP名称:"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+        <EditText android:layout_width="200dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:layout_toRightOf="@+id/tv_name"
+                  android:hint="例:KeyFree_A566A5"
+                  android:inputType="text"
+                android:id="@+id/et_name"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/ll_password"
+                      android:layout_below="@+id/ll_name">
+            <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_password"
+                    android:text="AP密码:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+            <EditText android:layout_width="200dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:inputType="textPassword"
+                      android:password="true"
+                      android:layout_toRightOf="@+id/tv_password"
+                      android:id="@+id/et_password"/>
+        </LinearLayout>
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_password"
+                android:id="@+id/btn_editConfig"
+                android:layout_margin="10dp"
+                android:text="配置AP名称密码"/>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:layout_alignParentBottom="true"
+              android:background="#e7eaeb"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/rl_opendoor"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/ll_outputTime">
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_outputTime"
+                android:text="开门时间:"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+        <EditText android:layout_width="100dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:inputType="number"
+                  android:text="30"
+                  android:layout_toRightOf="@+id/tv_outputTime"
+                  android:id="@+id/et_outputTime"/>
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/et_outputTime"
+                    android:text="*100毫秒"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+        </LinearLayout>
+        <Button android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_opendoor"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ll_outputTime"
+                android:text="wifi开门"/>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:layout_alignParentBottom="true"
+              android:background="#e7eaeb"/>
+    </RelativeLayout>
+
+</LinearLayout>

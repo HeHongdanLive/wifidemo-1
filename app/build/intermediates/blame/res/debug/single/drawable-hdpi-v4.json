@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan4.png",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable-hdpi\\scan4.png"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan.png",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable-hdpi\\scan.png"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wifilevel0.png",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable-hdpi\\wifilevel0.png"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wifilevel0_lock.png",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable-hdpi\\wifilevel0_lock.png"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.png",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wifi_on.png",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable-hdpi\\wifi_on.png"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ios_back_arrow.png",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable-hdpi\\ios_back_arrow.png"
+    }
+]

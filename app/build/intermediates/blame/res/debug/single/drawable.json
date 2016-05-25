@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\switch_close_background.xml",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable\\switch_close_background.xml"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\switch_open_background.xml",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\drawable\\switch_open_background.xml"
+    }
+]

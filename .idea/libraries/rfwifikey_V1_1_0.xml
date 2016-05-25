@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rfwifikey_V1.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/rfwifikey_V1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

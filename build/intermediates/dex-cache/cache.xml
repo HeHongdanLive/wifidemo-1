@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\androidTools\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\wifidemo\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_9f485edcc407cc50a7266bb246136b2eb9d29409.jar" />
+    </item>
+    <item
+        jar="E:\wifidemo\app\libs\rfwifikey_V1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3cf18eb6a7a22e661c2983e65d873bd396605dc9">
+        <dex dex="E:\wifidemo\app\build\intermediates\pre-dexed\debug\rfwifikey_V1.1.0_7bb16e0265003ed7416c390e5bb04317df7c16c8.jar" />
+    </item>
+
+</items>

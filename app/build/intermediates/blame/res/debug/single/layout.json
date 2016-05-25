@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_inputpwd.xml",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\layout\\dialog_inputpwd.xml"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_connect.xml",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\layout\\layout_connect.xml"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wifi_child.xml",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\layout\\wifi_child.xml"
+    },
+    {
+        "merged": "E:\\wifidemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_setwifirelay.xml",
+        "source": "E:\\wifidemo\\app\\src\\main\\res\\layout\\layout_setwifirelay.xml"
+    }
+]
